@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -Os -c -DSTM32F103C8 -DSTM32F10X_MD -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IE:\CHIP -IE:\CHIP\baza\ADC -IE:\CHIP\baza\font -IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\cmsis_boot -IE:\CHIP\baza\delay -IE:\CHIP\baza\nokia_5110 -IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\stm_lib -IE:\CHIP\baza\prtf -IE:\CHIP\COX\stm32f103c8_nokia_5110_doza -IE:\CHIP\baza\time -IE:\CHIP\baza\icons -IE:\CHIP\baza\wdt -IE:\CHIP\baza\key -IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\cmsis -IE:\CHIP\baza -IE:\CHIP\COX -IE:\CHIP\baza\ds18b20 -IE:\CHIP\baza\flash -IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\stm_lib\inc">
+      <target file="stm32f10x_spi.o" lastModified="16a48c08c26">
+         <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="168ca5f1f07"/>
+      </target>
+      <target file="prtf.o" lastModified="16a52f32263">
+         <source file="..\..\..\..\..\baza\prtf\prtf.c" lastModified="16a52f318d9"/>
+      </target>
+      <target file="stm32f10x_iwdg.o" lastModified="16a48c09195">
+         <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="168ca5efb80"/>
+      </target>
+      <target file="stm32f10x_crc.o" lastModified="16a48c0715b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="168ca5e37e1"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="16a48c0737f">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="168ca5e1de0"/>
+      </target>
+      <target file="main_meny.o" lastModified="16a5702fae2">
+         <source file="..\..\..\main_meny.c" lastModified="16950c3fbe0"/>
+      </target>
+      <target file="stm32f10x_pwr.o" lastModified="16a48c067fd">
+         <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="168ca5e56a3"/>
+      </target>
+      <target file="key.o" lastModified="16a57030cbd">
+         <source file="..\..\..\..\..\baza\key\key.c" lastModified="168d9dc64bb"/>
+      </target>
+      <target file="misc.o" lastModified="16a48c08a12">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="168cb7d2195"/>
+      </target>
+      <target file="bat.o" lastModified="16a48c066c3">
+         <source file="..\..\..\..\..\baza\icons\bat.c" lastModified="168d9ce8916"/>
+      </target>
+      <target file="time.o" lastModified="16a4935b5f9">
+         <source file="..\..\..\..\..\baza\time\time.c" lastModified="16a48c64986"/>
+      </target>
+      <target file="flash.o" lastModified="16a48c05fc6">
+         <source file="..\..\..\..\..\baza\flash\flash.c" lastModified="168a12ad294"/>
+      </target>
+      <target file="startup_stm32f10x_md.o" lastModified="16a48c068c5">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="168ca5e1e06"/>
+      </target>
+      <target file="stm32f10x_flash.o" lastModified="16a48c08479">
+         <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="168ca5f45df"/>
+      </target>
+      <target file="stm32f10x_bkp.o" lastModified="16a48c08fb2">
+         <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="168ca5e7238"/>
+      </target>
+      <target file="stm32f10x_rtc.o" lastModified="16a48c054e9">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="168ca5eded2"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="16a48c06aa4">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="168ca5e8de4"/>
+      </target>
+      <target file="stm32f10x_exti.o" lastModified="16a48c0778a">
+         <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="168ca5ec10c"/>
+      </target>
+      <target file="delay.o" lastModified="16a48c05960">
+         <source file="..\..\..\..\..\baza\delay\delay.c" lastModified="168a12a3f12"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="16a48c065ae">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="168ca5e1e66"/>
+      </target>
+      <target file="ds18b20.o" lastModified="16a5702fe44">
+         <source file="..\..\..\..\..\baza\ds18b20\ds18b20.c" lastModified="168a12a824e"/>
+      </target>
+      <target file="syscalls.o" lastModified="16a48c08214">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="168ca5d89e6"/>
+      </target>
+      <target file="wdt.o" lastModified="16a48c08dfd">
+         <source file="..\..\..\..\..\baza\wdt\wdt.c" lastModified="168a12c80ed"/>
+      </target>
+      <target file="adc.o" lastModified="16a48c086c3">
+         <source file="..\..\..\..\..\baza\ADC\adc.c" lastModified="168a1289704"/>
+      </target>
+      <target file="stm32f10x_adc.o" lastModified="16a48c07a1b">
+         <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="168ca5f92e4"/>
+      </target>
+      <target file="stm32f10x_tim.o" lastModified="16a48c05e48">
+         <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="168ca5f6d86"/>
+      </target>
+      <target file="nokia_5110.o" lastModified="16a57030a84">
+         <source file="..\..\..\..\..\baza\nokia_5110\nokia_5110.c" lastModified="16a48aad925"/>
+      </target>
+      <target file="main.o" lastModified="16a5703077b">
+         <source file="..\..\..\main.c" lastModified="16a5702f367"/>
+      </target>
+      <target file="stm32f10x_usart.o" lastModified="16a48c07e8e">
+         <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="168ca5fb67e"/>
+      </target>
+   </processor>
+</history>

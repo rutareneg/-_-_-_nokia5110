@@ -1,0 +1,274 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dependencies>
+   <includePath signature="/IE:\CHIP /IE:\CHIP\baza\ADC /IE:\CHIP\baza\font /IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\cmsis_boot /IE:\CHIP\baza\delay /IE:\CHIP\baza\nokia_5110 /IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\stm_lib /IE:\CHIP\baza\prtf /IE:\CHIP\COX\stm32f103c8_nokia_5110_doza /IE:\CHIP\baza\time /IE:\CHIP\baza\icons /IE:\CHIP\baza\wdt /IE:\CHIP\baza\key /IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\cmsis /IE:\CHIP\baza /IE:\CHIP\COX /IE:\CHIP\baza\ds18b20 /IE:\CHIP\baza\flash /IE:\CHIP\COX\stm32f103c8_nokia_5110_doza\stm_lib\inc">
+      <source file="..\..\..\..\..\baza\delay\delay.h" lastModified="168a12a21d2">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cm3.h" lastModified="168ca5db498">
+         <include file="..\..\..\cmsis\core_cmInstr.h"/>
+         <include file="..\..\..\cmsis\core_cmFunc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_spi.c" lastModified="168ca5f1f07">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\delay\delay.c" lastModified="168a12a3f12">
+         <include file="..\..\..\..\..\baza\delay\delay.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="168ca5edec3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="168ca5e1dcf">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_iwdg.c" lastModified="168ca5efb80">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_exti.c" lastModified="168ca5ec10c">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_exti.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_pwr.h" lastModified="168ca5e5694">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="168ca5e8de4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_adc.h" lastModified="168ca5f92d4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.h" lastModified="168ca5e1e75">
+      </source>
+      <source file="..\..\..\..\..\baza\font\nums15x31.h" lastModified="16a247f77a1">
+      </source>
+      <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="168ca5e1e66">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_bkp.h" lastModified="168ca5e722a">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\font\nums_j_16x24.h" lastModified="16a4847db6a">
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x_conf.h" lastModified="168ca5e1e46">
+      </source>
+      <source file="..\..\..\stm_lib\src\misc.c" lastModified="168cb7d2195">
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+      </source>
+      <source file="..\..\..\cmsis\core_cmFunc.h" lastModified="168ca5db891">
+      </source>
+      <source file="..\..\..\..\..\baza\icons\rad_16x16.h" lastModified="1686f68831c">
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_usart.h" lastModified="168ca5fb66c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_crc.h" lastModified="168ca5e37dd">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\wdt\wdt.h" lastModified="168a12ca13e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\prtf\prtf.h" lastModified="16a52f30f6d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\icons\bat.h" lastModified="168cbf88091">
+      </source>
+      <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md.c" lastModified="168ca5e1e06">
+      </source>
+      <source file="..\..\..\..\..\baza\wdt\wdt.c" lastModified="168a12c80ed">
+         <include file="..\..\..\..\..\baza\wdt\wdt.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\font\ASCII_5x8_ALL.h" lastModified="161ac48de44">
+      </source>
+      <source file="..\..\..\..\..\baza\prtf\prtf.c" lastModified="16a52f318d9">
+         <include file="..\..\..\..\..\baza\prtf\prtf.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_tim.c" lastModified="168ca5f6d86">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\font\FACII_8_16.h" lastModified="16878794126">
+      </source>
+      <source file="..\..\..\..\..\baza\icons\bat.c" lastModified="168d9ce8916">
+         <include file="..\..\..\..\..\baza\icons\bat_0_15x8.h"/>
+         <include file="..\..\..\..\..\baza\nokia_5110\nokia_5110.h"/>
+         <include file="..\..\..\..\..\baza\icons\bat_V_5x8.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="168ca5fb67e">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\key\key.h" lastModified="168a12b5f94">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_spi.h" lastModified="168ca5f1ef8">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_flash.h" lastModified="168ca5f45cb">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\misc.h" lastModified="168cb7d217c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\key\key.c" lastModified="168d9dc64bb">
+         <include file="..\..\..\..\..\baza\key\key.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\..\..\baza\delay\delay.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\main.h" lastModified="16a5702f0a4">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\syscalls\syscalls.c" lastModified="168ca5d9986">
+      </source>
+      <source file="..\..\..\..\..\baza\font\SystemRus6x8.h" lastModified="161b63a0d6b">
+      </source>
+      <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="168ca5db8a1">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="168ca5f45df">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rtc.c" lastModified="168ca5eded2">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="168ca5e1de0">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\cmsis_boot\stm32f10x.h" lastModified="168ca5e221e">
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\icons\bat_V_5x8.h" lastModified="168d9d2bcbd">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="168ca5e56a3">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\ADC\adc.h" lastModified="168a14e1d65">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="168ca5f92e4">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\ADC\adc.c" lastModified="168a1289704">
+         <include file="..\..\..\..\..\baza\ADC\adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\ds18b20\ds18b20.h" lastModified="1687dd6f0fc">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\main_meny.h" lastModified="16950a2bb6e">
+      </source>
+      <source file="..\..\..\..\..\baza\ds18b20\ds18b20.c" lastModified="168a12a824e">
+         <include file="..\..\..\..\..\baza\ds18b20\ds18b20.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_usart.h"/>
+         <include file="..\..\..\..\..\baza\delay\delay.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_bkp.c" lastModified="168ca5e7238">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\nokia_5110\nokia_5110.h" lastModified="16a29af49fa">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="168ca5efb7c">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="168ca5ec108">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\flash\flash.h" lastModified="168a12b07d3">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\main_meny.c" lastModified="16950c3fbe0">
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\main_meny.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_adc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <include file="..\..\..\..\..\baza\ADC\adc.h"/>
+         <include file="..\..\..\..\..\baza\delay\delay.h"/>
+         <include file="..\..\..\..\..\baza\ds18b20\ds18b20.h"/>
+         <include file="..\..\..\..\..\baza\flash\flash.h"/>
+         <include file="..\..\..\..\..\baza\icons\bat.h"/>
+         <include file="..\..\..\..\..\baza\key\key.h"/>
+         <include file="..\..\..\..\..\baza\nokia_5110\nokia_5110.h"/>
+         <include file="..\..\..\..\..\baza\prtf\prtf.h"/>
+         <include file="..\..\..\..\..\baza\time\time.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="168ca5f6d5e">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="168ca5e8dd5">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\nokia_5110\nokia_5110.c" lastModified="16a48aadd0d">
+         <include file="..\..\..\..\..\baza\nokia_5110\nokia_5110.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\main.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_gpio.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\..\..\baza\delay\delay.h"/>
+         <include file="..\..\..\..\..\baza\font\ASCII_5x8_ALL.h"/>
+         <include file="..\..\..\..\..\baza\font\FACII_8_16.h"/>
+         <include file="..\..\..\..\..\baza\font\nums15x31.h"/>
+         <include file="..\..\..\..\..\baza\font\nums16x24.h"/>
+         <include file="..\..\..\..\..\baza\font\nums_j_16x24.h"/>
+         <include file="..\..\..\..\..\baza\font\SystemRus6x8.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\flash\flash.c" lastModified="168a12ad67c">
+         <include file="..\..\..\..\..\baza\flash\flash.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\icons\bat_0_15x8.h" lastModified="16879806ccf">
+      </source>
+      <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="168ca5e37e1">
+         <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\time\time.h" lastModified="16a4935a40f">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\baza\font\nums16x24.h" lastModified="16a291e0b7a">
+      </source>
+      <source file="..\..\..\..\..\baza\time\time.c" lastModified="16a48c64d6e">
+         <include file="..\..\..\..\..\baza\time\time.h"/>
+         <include file="..\..\..\cmsis\core_cm3.h"/>
+         <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
+         <include file="..\..\..\stm_lib\inc\misc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_rtc.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_tim.h"/>
+         <include file="..\..\..\stm_lib\inc\stm32f10x_bkp.h"/>
+      </source>
+   </includePath>
+</dependencies>
