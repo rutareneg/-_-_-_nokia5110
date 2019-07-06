@@ -86,108 +86,87 @@
     <Component id="457" name="ADC" path="" type="2"/>
     <Component id="458" name="USART" path="" type="2"/>
     <Component id="467" name="MISC" path="" type="2"/>
+    <Component id="492" name="Misc" path="" type="2"/>
   </Components>
   <Files>
-    <File name="basa/wdt.c" path="../../baza/wdt/wdt.c" type="1"/>
-    <File name="basa/adc.c" path="../../baza/ADC/adc.c" type="1"/>
-    <File name="basa/bat_h_1x8.h" path="../../baza/icons/bat_h_1x8.h" type="1"/>
+    <File name="basa/delay.h" path="../../../baza/delay/delay.h" type="1"/>
+    <File name="basa/set_molnia_16x16.h" path="../../../baza/icons/set_molnia_16x16.h" type="1"/>
+    <File name="basa/wdt.c" path="../../../baza/wdt/wdt.c" type="1"/>
+    <File name="basa/time.c" path="../../../baza/time/time.c" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_tim.h" path="stm_lib/inc/stm32f10x_tim.h" type="1"/>
+    <File name="cmsis_boot" path="" type="2"/>
+    <File name="basa/adc.c" path="../../../baza/ADC/adc.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_pwr.h" path="stm_lib/inc/stm32f10x_pwr.h" type="1"/>
+    <File name="cmsis_boot/startup" path="" type="2"/>
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
+    <File name="basa/bat.h" path="../../../baza/icons/bat.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_iwdg.c" path="stm_lib/src/stm32f10x_iwdg.c" type="1"/>
     <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
-    <File name="basa/ASCII_5x8_ALL_.h" path="../../baza/font/ASCII_5x8_ALL_.h" type="1"/>
-    <File name="basa/ds18b20.h" path="../../baza/ds18b20/ds18b20.h" type="1"/>
+    <File name="basa/ds18b20.h" path="../../../baza/ds18b20/ds18b20.h" type="1"/>
+    <File name="basa/nums_j_16x24.h" path="../../../baza/font/nums_j_16x24.h" type="1"/>
     <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
     <File name="main.h" path="main.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_flash.h" path="stm_lib/inc/stm32f10x_flash.h" type="1"/>
     <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
+    <File name="basa/termometr_16x16.h" path="../../../baza/icons/termometr_16x16.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_spi.h" path="stm_lib/inc/stm32f10x_spi.h" type="1"/>
-    <File name="basa/Font_8_16.h" path="../../baza/font/Font_8_16.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_adc.c" path="stm_lib/src/stm32f10x_adc.c" type="1"/>
-    <File name="basa/ds18b20.c" path="../../baza/ds18b20/ds18b20.c" type="1"/>
+    <File name="basa/ds18b20.c" path="../../../baza/ds18b20/ds18b20.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_iwdg.h" path="stm_lib/inc/stm32f10x_iwdg.h" type="1"/>
-    <File name="basa/flash.h" path="../../baza/flash/flash.h" type="1"/>
-    <File name="basa/nokia_5110.h" path="../../baza/nokia_5110/nokia_5110.h" type="1"/>
-    <File name="basa/nums15x31.h" path="../../baza/font/nums15x31.h" type="1"/>
-    <File name="basa/nums16x24.h" path="../../baza/font/nums16x24.h" type="1"/>
+    <File name="basa/FACII_8_16.h" path="../../../baza/font/FACII_8_16.h" type="1"/>
+    <File name="basa/delay.c" path="../../../baza/delay/delay.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_usart.c" path="stm_lib/src/stm32f10x_usart.c" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
+    <File name="basa/flash.h" path="../../../baza/flash/flash.h" type="1"/>
+    <File name="basa/nokia_5110.h" path="../../../baza/nokia_5110/nokia_5110.h" type="1"/>
+    <File name="basa/nums15x31.h" path="../../../baza/font/nums15x31.h" type="1"/>
+    <File name="main_meny.h" path="main_meny.h" type="1"/>
+    <File name="basa/nums16x24.h" path="../../../baza/font/nums16x24.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_bkp.c" path="stm_lib/src/stm32f10x_bkp.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f10x_md.c" path="cmsis_boot/startup/startup_stm32f10x_md.c" type="1"/>
+    <File name="basa/prtf.h" path="../../../baza/prtf/prtf.h" type="1"/>
+    <File name="basa/key.c" path="../../../baza/key/key.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
-    <File name="basa/prtf.h" path="../../baza/prtf/prtf.h" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_usart.h" path="stm_lib/inc/stm32f10x_usart.h" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
     <File name="stm_lib/inc/misc.h" path="stm_lib/inc/misc.h" type="1"/>
     <File name="cmsis/core_cmInstr.h" path="cmsis/core_cmInstr.h" type="1"/>
-    <File name="basa/key.h" path="../../baza/key/key.h" type="1"/>
+    <File name="basa/adc.h" path="../../../baza/ADC/adc.h" type="1"/>
+    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
+    <File name="stm_lib/src/stm32f10x_exti.c" path="stm_lib/src/stm32f10x_exti.c" type="1"/>
+    <File name="basa/key.h" path="../../../baza/key/key.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_rcc.c" path="stm_lib/src/stm32f10x_rcc.c" type="1"/>
-    <File name="basa/SystemRus6x8.h" path="../../baza/font/SystemRus6x8.h" type="1"/>
-    <File name="basa/celsiy_8x8.h" path="../../baza/icons/celsiy_8x8.h" type="1"/>
-    <File name="basa/ASCII_5x8_ALL.h" path="../../baza/font/ASCII_5x8_ALL.h" type="1"/>
+    <File name="basa/SystemRus6x8.h" path="../../../baza/font/SystemRus6x8.h" type="1"/>
+    <File name="basa/celsiy_8x8.h" path="../../../baza/icons/celsiy_8x8.h" type="1"/>
+    <File name="basa/chip_clock.h" path="../../../baza/chip_clock/chip_clock.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_bkp.h" path="stm_lib/inc/stm32f10x_bkp.h" type="1"/>
     <File name="stm_lib/src" path="" type="2"/>
-    <File name="basa/time.h" path="../../baza/time/time.h" type="1"/>
+    <File name="basa/time.h" path="../../../baza/time/time.h" type="1"/>
     <File name="cmsis" path="" type="2"/>
     <File name="stm_lib" path="" type="2"/>
     <File name="stm_lib/inc/stm32f10x_exti.h" path="stm_lib/inc/stm32f10x_exti.h" type="1"/>
-    <File name="basa/prtf.c" path="../../baza/prtf/prtf.c" type="1"/>
+    <File name="basa/prtf.c" path="../../../baza/prtf/prtf.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_flash.c" path="stm_lib/src/stm32f10x_flash.c" type="1"/>
+    <File name="basa/flash.c" path="../../../baza/flash/flash.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_adc.h" path="stm_lib/inc/stm32f10x_adc.h" type="1"/>
+    <File name="main_meny.c" path="main_meny.c" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
     <File name="basa" path="" type="2"/>
-    <File name="basa/nokia_5110.c" path="../../baza/nokia_5110/nokia_5110.c" type="1"/>
-    <File name="basa/wdt.h" path="../../baza/wdt/wdt.h" type="1"/>
-    <File name="basa/Font5x7.h" path="../../baza/font/Font5x7.h" type="1"/>
+    <File name="basa/nokia_5110.c" path="../../../baza/nokia_5110/nokia_5110.c" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>
+    <File name="basa/wdt.h" path="../../../baza/wdt/wdt.h" type="1"/>
+    <File name="syscalls" path="" type="2"/>
     <File name="stm_lib/src/stm32f10x_crc.c" path="stm_lib/src/stm32f10x_crc.c" type="1"/>
-    <File name="basa/bat_16x16.h" path="../../baza/icons/bat_16x16.h" type="1"/>
+    <File name="basa/bat.c" path="../../../baza/icons/bat.c" type="1"/>
+    <File name="stm_lib/inc" path="" type="2"/>
+    <File name="stm_lib/inc/stm32f10x_crc.h" path="stm_lib/inc/stm32f10x_crc.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_rtc.c" path="stm_lib/src/stm32f10x_rtc.c" type="1"/>
     <File name="main.c" path="main.c" type="1"/>
-    <File name="basa/Font8_16n.h" path="../../baza/font/Font8_16n.h" type="1"/>
-    <File name="basa/delay.h" path="../../baza/delay/delay.h" type="1"/>
-    <File name="basa/set_molnia_16x16.h" path="../../baza/icons/set_molnia_16x16.h" type="1"/>
-    <File name="basa/time.c" path="../../baza/time/time.c" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_tim.h" path="stm_lib/inc/stm32f10x_tim.h" type="1"/>
-    <File name="cmsis_boot" path="" type="2"/>
-    <File name="basa/SystemRus5x7 (1).h" path="../../baza/font/SystemRus5x7 (1).h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_tim.c" path="stm_lib/src/stm32f10x_tim.c" type="1"/>
-    <File name="basa/bat_15x8.h" path="../../baza/icons/bat_15x8.h" type="1"/>
-    <File name="cmsis_boot/startup" path="" type="2"/>
-    <File name="basa/rad_24x24.h" path="../../baza/icons/rad_24x24.h" type="1"/>
-    <File name="basa/bat.h" path="../../baza/icons/bat.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_iwdg.c" path="stm_lib/src/stm32f10x_iwdg.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
-    <File name="basa/bat_l_1x8.h" path="../../baza/icons/bat_l_1x8.h" type="1"/>
-    <File name="basa/nums_j_16x24.h" path="../../baza/font/nums_j_16x24.h" type="1"/>
-    <File name="basa/termometr_16x16.h" path="../../baza/icons/termometr_16x16.h" type="1"/>
-    <File name="basa/FACII_8_16.h" path="../../baza/font/FACII_8_16.h" type="1"/>
-    <File name="basa/delay.c" path="../../baza/delay/delay.c" type="1"/>
-    <File name="basa/nums8x16.h" path="../../baza/font/nums8x16.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_usart.c" path="stm_lib/src/stm32f10x_usart.c" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
-    <File name="basa/clock_16x16.h" path="../../baza/icons/clock_16x16.h" type="1"/>
-    <File name="main_meny.h" path="main_meny.h" type="1"/>
-    <File name="basa/rad_32x32.h" path="../../baza/icons/rad_32x32.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
-    <File name="basa/key.c" path="../../baza/key/key.c" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
-    <File name="basa/bat_V_5x8.h" path="../../baza/icons/bat_V_5x8.h" type="1"/>
-    <File name="basa/nums7x15.h" path="../../baza/font/nums7x15.h" type="1"/>
-    <File name="basa/ASCII_ALL8_16_32.h" path="../../baza/font/ASCII_ALL8_16_32.h" type="1"/>
-    <File name="basa/adc.h" path="../../baza/ADC/adc.h" type="1"/>
-    <File name="cmsis/core_cm3.h" path="cmsis/core_cm3.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_exti.c" path="stm_lib/src/stm32f10x_exti.c" type="1"/>
-    <File name="basa/Font_8_16en.h" path="../../baza/font/Font_8_16en.h" type="1"/>
-    <File name="basa/rad_8x8.h" path="../../baza/icons/rad_8x8.h" type="1"/>
-    <File name="basa/rad_16x16.h" path="../../baza/icons/rad_16x16.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_flash.c" path="stm_lib/src/stm32f10x_flash.c" type="1"/>
-    <File name="basa/flash.c" path="../../baza/flash/flash.c" type="1"/>
-    <File name="main_meny.c" path="main_meny.c" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>
-    <File name="syscalls" path="" type="2"/>
-    <File name="basa/rad_32x32_.h" path="../../baza/icons/rad_32x32_.h" type="1"/>
-    <File name="basa/Font_8_16___.h" path="../../baza/font/Font_8_16___.h" type="1"/>
-    <File name="basa/bat.c" path="../../baza/icons/bat.c" type="1"/>
-    <File name="basa/Font_8_16n.h" path="../../baza/font/Font_8_16n.h" type="1"/>
-    <File name="stm_lib/inc" path="" type="2"/>
-    <File name="basa/bat_0_15x8.h" path="../../baza/icons/bat_0_15x8.h" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_crc.h" path="stm_lib/inc/stm32f10x_crc.h" type="1"/>
+    <File name="basa/chip_clock.c" path="../../../baza/chip_clock/chip_clock.c" type="1"/>
   </Files>
 </Project>

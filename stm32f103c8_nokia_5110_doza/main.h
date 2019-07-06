@@ -18,6 +18,8 @@
 
   _Bool nach;//контроль загрузки
 
+
+
 //************настраиваем порты lcd***************//
 
 #define lcd5110_DC       GPIO_Pin_9// D5 d/S   GPIO_Pin_10
@@ -25,7 +27,7 @@
 #define lcd5110_SCE	     GPIO_Pin_7//
 #define lcd5110_MOSI     GPIO_Pin_15//  MOSI--D16
 #define lcd5110_SCLK     GPIO_Pin_13// SCK--D15
-#define lcd5110_LED      GPIO_Pin_12//  D8
+#define lcd5110_LED      GPIO_Pin_12//  не используется
 #define lcd5110_PORT     GPIOB
 
 #define SPI_lcd  SPI2
@@ -33,6 +35,9 @@
 #define RCC_SPI2     	RCC_APB1Periph_SPI2
 
 
+
+#define	ill_on  GPIO_SetBits(PORT_ILL, PIN_ILL);
+#define	ill_off  GPIO_ResetBits(PORT_ILL, PIN_ILL);
 
 /************настраиваем порты кнопок***************/
 
@@ -43,23 +48,30 @@
 #define  PIN_KEY_3 GPIO_Pin_11
 #define  PIN_KEY_4 GPIO_Pin_12
 
+//*************порты нагрузки***************************//
+
 #define  PORT_IN_OUT 		GPIOB  //порт управления нагрузкой
-#define  PIN_OUT1 		GPIO_Pin_0 //выход управления нагрузкой1
-#define  PIN_OUT2 		GPIO_Pin_1 //выход управления нагрузкой2
+#define  PIN_OUT1 		GPIO_Pin_3 //выход управления нагрузкой1
+#define  PIN_OUT2 		GPIO_Pin_4 //выход управления нагрузкой2
 #define	 RCC_PORT_IN_OUT  RCC_APB2Periph_GPIOB
-//********************************************************/
+
+//******порт MCO****тактирование процессора для отладки******/
+/*
+#define	 RCC_PORT_MCO   RCC_APB2Periph_GPIOA
+#define  PORT_MCO       GPIOA
+#define  PIN_MCO        GPIO_Pin_8
+*/
+
 /******настройка порта для DS18B20**********************/
 #define USART_DS18B20   USART3
 #define Rx_USART_DS18B20 GPIO_Pin_11
 #define Tx_USART_DS18B20 GPIO_Pin_10
 #define PORT_USART_DS18B20 GPIOB
-/**********АДС***********************************/
+/*********************************************/
 
-
-
-#define  RCC_PORT_ILL  RCC_APB2Periph_GPIOA
-#define  PORT_ILL      GPIOA
-#define  PIN_ILL       GPIO_Pin_8
+#define  RCC_PORT_ILL  RCC_APB2Periph_GPIOB
+#define  PORT_ILL      GPIOB
+#define  PIN_ILL       GPIO_Pin_1
 
 #define  RCC_PORT_BIP  RCC_APB2Periph_GPIOA
 #define  PORT_BIP      GPIOA
@@ -85,6 +97,7 @@
 #define	 yes        keys==1
 #define	 no         keys==3
 #define  meny		keys==2
+#define  meny_l		keys==20
 
 #define  beck   0
 //#define  meny		1
@@ -109,6 +122,8 @@
 #define  pos_hour   1,2,24    //У,Х, размер шрифта
 #define  pos_min    1,50,24    //У,Х, размер шрифта
 #define  pos_sec    0,58,24    //У,Х, размер шрифта
+
+
 
 
 #define  pos_lin     	5,45,8
@@ -179,10 +194,12 @@ typedef struct
 		//void Write_settings_to_flash ();
 		void clock();
 		void set_d_ds18b20 (unsigned char set_d[16]);
-		void read_Write(uint16_t *p, u8 R);
+		void FLASH_read(uint16_t *p, u8 R);
 		void read_seatings();
 		void FLASH_Write (uint16_t *p, u8 R);
 		void write_seatings();
-
-
+		void set_def_list();
+		void set_2t();//мигаем точками
+		void messag (unsigned char mess[16]);
+		void meny_driv();
 //********************************************//

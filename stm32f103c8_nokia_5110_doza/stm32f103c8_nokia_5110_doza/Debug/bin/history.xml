@@ -1,36 +1,37 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -Map=stm32f103c8_nokia_5110_doza.map -Os --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\stm32f103c8_nokia_5110_doza -TC:\CooCox\CoIDE\configuration\ProgramData\stm32f103c8_nokia_5110_doza/link.ld -g">
-      <target file="stm32f103c8_nokia_5110_doza.elf" lastModified="16a57030ffe">
-         <source file="..\obj\stm32f10x_rtc.o" lastModified="16a48c054e9"/>
-         <source file="..\obj\prtf.o" lastModified="16a52f32263"/>
-         <source file="..\obj\main_meny.o" lastModified="16a5702fae2"/>
-         <source file="..\obj\delay.o" lastModified="16a48c05960"/>
-         <source file="..\obj\stm32f10x_tim.o" lastModified="16a48c05e48"/>
-         <source file="..\obj\flash.o" lastModified="16a48c05fc6"/>
-         <source file="..\obj\ds18b20.o" lastModified="16a5702fe44"/>
-         <source file="..\obj\system_stm32f10x.o" lastModified="16a48c065ae"/>
-         <source file="..\obj\bat.o" lastModified="16a48c066c3"/>
-         <source file="..\obj\stm32f10x_pwr.o" lastModified="16a48c067fd"/>
-         <source file="..\obj\startup_stm32f10x_md.o" lastModified="16a48c068c5"/>
-         <source file="..\obj\stm32f10x_gpio.o" lastModified="16a48c06aa4"/>
-         <source file="..\obj\main.o" lastModified="16a5703077b"/>
-         <source file="..\obj\stm32f10x_crc.o" lastModified="16a48c0715b"/>
-         <source file="..\obj\stm32f10x_rcc.o" lastModified="16a48c0737f"/>
-         <source file="..\obj\nokia_5110.o" lastModified="16a57030a84"/>
-         <source file="..\obj\stm32f10x_exti.o" lastModified="16a48c0778a"/>
-         <source file="..\obj\stm32f10x_adc.o" lastModified="16a48c07a1b"/>
-         <source file="..\obj\key.o" lastModified="16a57030cbd"/>
-         <source file="..\obj\stm32f10x_usart.o" lastModified="16a48c07e8e"/>
-         <source file="..\obj\time.o" lastModified="16a4935b5f9"/>
-         <source file="..\obj\syscalls.o" lastModified="16a48c08214"/>
-         <source file="..\obj\stm32f10x_flash.o" lastModified="16a48c08479"/>
-         <source file="..\obj\adc.o" lastModified="16a48c086c3"/>
-         <source file="..\obj\misc.o" lastModified="16a48c08a12"/>
-         <source file="..\obj\stm32f10x_spi.o" lastModified="16a48c08c26"/>
-         <source file="..\obj\wdt.o" lastModified="16a48c08dfd"/>
-         <source file="..\obj\stm32f10x_bkp.o" lastModified="16a48c08fb2"/>
-         <source file="..\obj\stm32f10x_iwdg.o" lastModified="16a48c09195"/>
+      <target file="stm32f103c8_nokia_5110_doza.elf" lastModified="16bc46134da">
+         <source file="..\obj\stm32f10x_rtc.o" lastModified="16bc06c0c7e"/>
+         <source file="..\obj\prtf.o" lastModified="16bc06c0f53"/>
+         <source file="..\obj\main_meny.o" lastModified="16bc06c1129"/>
+         <source file="..\obj\delay.o" lastModified="16bc06c12f3"/>
+         <source file="..\obj\stm32f10x_tim.o" lastModified="16bc06c1aa1"/>
+         <source file="..\obj\flash.o" lastModified="16bc06c1ce2"/>
+         <source file="..\obj\ds18b20.o" lastModified="16bc06c21e0"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="16bc06c23b4"/>
+         <source file="..\obj\bat.o" lastModified="16bc06c2565"/>
+         <source file="..\obj\chip_clock.o" lastModified="16bc06c2735"/>
+         <source file="..\obj\startup_stm32f10x_md.o" lastModified="16bc06c287c"/>
+         <source file="..\obj\stm32f10x_pwr.o" lastModified="16bc06c2abb"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="16bc06c2e4b"/>
+         <source file="..\obj\main.o" lastModified="16bc46130b5"/>
+         <source file="..\obj\stm32f10x_crc.o" lastModified="16bc06c4152"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="16bc06c44f0"/>
+         <source file="..\obj\nokia_5110.o" lastModified="16bc06c4894"/>
+         <source file="..\obj\stm32f10x_exti.o" lastModified="16bc06c4b53"/>
+         <source file="..\obj\stm32f10x_adc.o" lastModified="16bc06c5013"/>
+         <source file="..\obj\key.o" lastModified="16bc080c622"/>
+         <source file="..\obj\stm32f10x_usart.o" lastModified="16bc06c5819"/>
+         <source file="..\obj\time.o" lastModified="16bc06c5acf"/>
+         <source file="..\obj\syscalls.o" lastModified="16bc06c5d75"/>
+         <source file="..\obj\stm32f10x_flash.o" lastModified="16bc06c618a"/>
+         <source file="..\obj\adc.o" lastModified="16bc06c63d8"/>
+         <source file="..\obj\misc.o" lastModified="16bc06c65b0"/>
+         <source file="..\obj\stm32f10x_spi.o" lastModified="16bc06c6891"/>
+         <source file="..\obj\wdt.o" lastModified="16bc06c69d6"/>
+         <source file="..\obj\stm32f10x_bkp.o" lastModified="16bc06c6c3f"/>
+         <source file="..\obj\stm32f10x_iwdg.o" lastModified="16bc06c6e30"/>
       </target>
    </processor>
 </history>
