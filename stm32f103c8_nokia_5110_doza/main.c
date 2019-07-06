@@ -63,6 +63,13 @@ int main(void)
 	key_ini();// настройка портов кнопок и зв сиг
 	gpio_spi_Init();
 	init_lcd_5110 ();
+
+	lcd_set_rect(1,0,84,0);
+	lcd_set_rect(2,0,84,0);
+	lcd_set_rect(3,0,84,0);
+	lcd_set_rect(4,0,84,0);
+	lcd_set_strs(2,6,16,"ROTARENEG",1);
+
 	Init_Timer4 ();//мигаемточками
 	blinc_init();
 	adc_init ();//астройка ацп 1 канал  и порта ј 1
@@ -80,11 +87,10 @@ int main(void)
 	 	timer = RTC_GetCounter();
 	 	if(timer < tm_def ){RTC_SetCounter_(tm_def);}//пока вачдог не нужен
 	 	if(adc_calib < 2||adc_calib >60000){adc_calib = 60; write_seatings(); }
-	 	//if(!adc_calib_v){adc_calib_v = 500;}
-	 	//перезаписываем по умолчанию
-
 	 //	iwdt_init (256,60000);//ВАЧДОГ
 //*********************************************************************//
+	 	delay_s(2);
+	 	lcd_clear();
 
 	 	set_def_list();
 

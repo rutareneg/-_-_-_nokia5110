@@ -102,12 +102,12 @@
     <File name="cmsis/core_cmFunc.h" path="cmsis/core_cmFunc.h" type="1"/>
     <File name="stm_lib/src/misc.c" path="stm_lib/src/misc.c" type="1"/>
     <File name="basa/bat.h" path="../../../baza/icons/bat.h" type="1"/>
-    <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_iwdg.c" path="stm_lib/src/stm32f10x_iwdg.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_spi.c" path="stm_lib/src/stm32f10x_spi.c" type="1"/>
     <File name="cmsis_boot/stm32f10x.h" path="cmsis_boot/stm32f10x.h" type="1"/>
     <File name="basa/ds18b20.h" path="../../../baza/ds18b20/ds18b20.h" type="1"/>
-    <File name="basa/nums_j_16x24.h" path="../../../baza/font/nums_j_16x24.h" type="1"/>
     <File name="cmsis_boot/stm32f10x_conf.h" path="cmsis_boot/stm32f10x_conf.h" type="1"/>
+    <File name="basa/nums_j_16x24.h" path="../../../baza/font/nums_j_16x24.h" type="1"/>
     <File name="main.h" path="main.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_flash.h" path="stm_lib/inc/stm32f10x_flash.h" type="1"/>
     <File name="syscalls/syscalls.c" path="syscalls/syscalls.c" type="1"/>
@@ -119,18 +119,18 @@
     <File name="basa/FACII_8_16.h" path="../../../baza/font/FACII_8_16.h" type="1"/>
     <File name="basa/delay.c" path="../../../baza/delay/delay.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_usart.c" path="stm_lib/src/stm32f10x_usart.c" type="1"/>
-    <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
     <File name="basa/flash.h" path="../../../baza/flash/flash.h" type="1"/>
-    <File name="basa/nokia_5110.h" path="../../../baza/nokia_5110/nokia_5110.h" type="1"/>
+    <File name="stm_lib/inc/stm32f10x_rtc.h" path="stm_lib/inc/stm32f10x_rtc.h" type="1"/>
     <File name="basa/nums15x31.h" path="../../../baza/font/nums15x31.h" type="1"/>
-    <File name="main_meny.h" path="main_meny.h" type="1"/>
+    <File name="basa/nokia_5110.h" path="../../../baza/nokia_5110/nokia_5110.h" type="1"/>
     <File name="basa/nums16x24.h" path="../../../baza/font/nums16x24.h" type="1"/>
+    <File name="main_meny.h" path="main_meny.h" type="1"/>
     <File name="stm_lib/src/stm32f10x_bkp.c" path="stm_lib/src/stm32f10x_bkp.c" type="1"/>
     <File name="stm_lib/src/stm32f10x_pwr.c" path="stm_lib/src/stm32f10x_pwr.c" type="1"/>
     <File name="cmsis_boot/startup/startup_stm32f10x_md.c" path="cmsis_boot/startup/startup_stm32f10x_md.c" type="1"/>
+    <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
     <File name="basa/prtf.h" path="../../../baza/prtf/prtf.h" type="1"/>
     <File name="basa/key.c" path="../../../baza/key/key.c" type="1"/>
-    <File name="stm_lib/src/stm32f10x_gpio.c" path="stm_lib/src/stm32f10x_gpio.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_gpio.h" path="stm_lib/inc/stm32f10x_gpio.h" type="1"/>
     <File name="stm_lib/inc/stm32f10x_usart.h" path="stm_lib/inc/stm32f10x_usart.h" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.c" path="cmsis_boot/system_stm32f10x.c" type="1"/>
@@ -154,8 +154,8 @@
     <File name="stm_lib/src/stm32f10x_flash.c" path="stm_lib/src/stm32f10x_flash.c" type="1"/>
     <File name="basa/flash.c" path="../../../baza/flash/flash.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_adc.h" path="stm_lib/inc/stm32f10x_adc.h" type="1"/>
-    <File name="main_meny.c" path="main_meny.c" type="1"/>
     <File name="cmsis_boot/system_stm32f10x.h" path="cmsis_boot/system_stm32f10x.h" type="1"/>
+    <File name="main_meny.c" path="main_meny.c" type="1"/>
     <File name="basa" path="" type="2"/>
     <File name="basa/nokia_5110.c" path="../../../baza/nokia_5110/nokia_5110.c" type="1"/>
     <File name="stm_lib/inc/stm32f10x_rcc.h" path="stm_lib/inc/stm32f10x_rcc.h" type="1"/>

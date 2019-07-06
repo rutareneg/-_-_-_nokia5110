@@ -14,7 +14,7 @@
          <include file="..\..\..\stm_lib\inc\stm32f10x_spi.h"/>
          <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
       </source>
-      <source file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.h" lastModified="16a29af49fa">
+      <source file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.h" lastModified="16bc4cb78af">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
       <source file="..\..\..\stm_lib\inc\stm32f10x_rtc.h" lastModified="16b6dd82e67">
@@ -32,7 +32,7 @@
       <source file="..\..\..\stm_lib\inc\stm32f10x_rcc.h" lastModified="16b6dd82dc8">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
-      <source file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.c" lastModified="16bba879beb">
+      <source file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.c" lastModified="16bc4c702f7">
          <include file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.h"/>
          <include file="..\..\..\cmsis\core_cm3.h"/>
          <include file="..\..\..\main.h"/>
@@ -177,10 +177,10 @@
       </source>
       <source file="..\..\..\cmsis\core_cmInstr.h" lastModified="16b6dd82160">
       </source>
-      <source file="..\..\..\..\..\..\baza\icons\bat_V_5x8.h" lastModified="168d9d2bcbd">
-      </source>
       <source file="..\..\..\..\..\..\baza\time\time.h" lastModified="16b8c414eca">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\..\..\..\baza\icons\bat_V_5x8.h" lastModified="168d9d2bcbd">
       </source>
       <source file="..\..\..\stm_lib\src\stm32f10x_flash.c" lastModified="16b6dd8319a">
          <include file="..\..\..\stm_lib\inc\stm32f10x_flash.h"/>
@@ -210,12 +210,12 @@
          <include file="..\..\..\cmsis_boot\system_stm32f10x.h"/>
          <include file="..\..\..\cmsis_boot\stm32f10x_conf.h"/>
       </source>
+      <source file="..\..\..\..\..\..\baza\ds18b20\ds18b20.h" lastModified="1687dd6f0fc">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
       <source file="..\..\..\stm_lib\src\stm32f10x_pwr.c" lastModified="16b6dd832a7">
          <include file="..\..\..\stm_lib\inc\stm32f10x_pwr.h"/>
          <include file="..\..\..\stm_lib\inc\stm32f10x_rcc.h"/>
-      </source>
-      <source file="..\..\..\..\..\..\baza\ds18b20\ds18b20.h" lastModified="1687dd6f0fc">
-         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
       <source file="..\..\..\..\..\..\baza\ADC\adc.c" lastModified="16bbf88e486">
          <include file="..\..\..\..\..\..\baza\ADC\adc.h"/>
@@ -243,16 +243,10 @@
       </source>
       <source file="..\..\..\..\..\..\baza\icons\bat_0_15x8.h" lastModified="16879806ccf">
       </source>
-      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="16b6dd82b58">
-         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
-      </source>
       <source file="..\..\..\stm_lib\inc\stm32f10x_iwdg.h" lastModified="16b6dd82cc4">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
-      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="16b6dd82c42">
-         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
-      </source>
-      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="16b6dd82f1d">
+      <source file="..\..\..\stm_lib\inc\stm32f10x_exti.h" lastModified="16b6dd82b58">
          <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
       <source file="..\..\..\main_meny.c" lastModified="16b6dd81c56">
@@ -275,6 +269,12 @@
          <include file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.h"/>
          <include file="..\..\..\..\..\..\baza\prtf\prtf.h"/>
          <include file="..\..\..\..\..\..\baza\time\time.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_tim.h" lastModified="16b6dd82f1d">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
+      </source>
+      <source file="..\..\..\stm_lib\inc\stm32f10x_gpio.h" lastModified="16b6dd82c42">
+         <include file="..\..\..\cmsis_boot\stm32f10x.h"/>
       </source>
       <source file="..\..\..\stm_lib\src\stm32f10x_crc.c" lastModified="16b6dd830fe">
          <include file="..\..\..\stm_lib\inc\stm32f10x_crc.h"/>

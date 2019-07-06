@@ -16,7 +16,7 @@
       <target file="stm32f10x_rcc.o" lastModified="16bc06c44f0">
          <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="16b6dd8330e"/>
       </target>
-      <target file="main_meny.o" lastModified="16bc06c1129">
+      <target file="main_meny.o" lastModified="16bc4d596f2">
          <source file="..\..\..\main_meny.c" lastModified="16b6dd81c56"/>
       </target>
       <target file="stm32f10x_pwr.o" lastModified="16bc06c2abb">
@@ -31,7 +31,7 @@
       <target file="chip_clock.o" lastModified="16bc06c2735">
          <source file="..\..\..\..\..\..\baza\chip_clock\chip_clock.c" lastModified="16b8dc84929"/>
       </target>
-      <target file="bat.o" lastModified="16bc06c2565">
+      <target file="bat.o" lastModified="16bc4d598c5">
          <source file="..\..\..\..\..\..\baza\icons\bat.c" lastModified="168d9ce8916"/>
       </target>
       <target file="time.o" lastModified="16bc06c5acf">
@@ -82,11 +82,11 @@
       <target file="stm32f10x_adc.o" lastModified="16bc06c5013">
          <source file="..\..\..\stm_lib\src\stm32f10x_adc.c" lastModified="16b6dd8302f"/>
       </target>
-      <target file="nokia_5110.o" lastModified="16bc06c4894">
-         <source file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.c" lastModified="16bba879803"/>
+      <target file="nokia_5110.o" lastModified="16bc4d5ac42">
+         <source file="..\..\..\..\..\..\baza\nokia_5110\nokia_5110.c" lastModified="16bc4c6ff0f"/>
       </target>
-      <target file="main.o" lastModified="16bc46130b5">
-         <source file="..\..\..\main.c" lastModified="16bc460f8d4"/>
+      <target file="main.o" lastModified="16bc4de61b5">
+         <source file="..\..\..\main.c" lastModified="16bc4de4a52"/>
       </target>
       <target file="stm32f10x_usart.o" lastModified="16bc06c5819">
          <source file="..\..\..\stm_lib\src\stm32f10x_usart.c" lastModified="16b6dd834a7"/>

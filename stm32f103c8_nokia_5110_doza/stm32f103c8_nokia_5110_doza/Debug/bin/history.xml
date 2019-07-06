@@ -1,24 +1,24 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
    <processor signature="arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -g -Map=stm32f103c8_nokia_5110_doza.map -Os --gc-sections -lm -lgcc -lc -LC:\CooCox\CoIDE\configuration\ProgramData\stm32f103c8_nokia_5110_doza -TC:\CooCox\CoIDE\configuration\ProgramData\stm32f103c8_nokia_5110_doza/link.ld -g">
-      <target file="stm32f103c8_nokia_5110_doza.elf" lastModified="16bc46134da">
+      <target file="stm32f103c8_nokia_5110_doza.elf" lastModified="16bc4de6732">
          <source file="..\obj\stm32f10x_rtc.o" lastModified="16bc06c0c7e"/>
          <source file="..\obj\prtf.o" lastModified="16bc06c0f53"/>
-         <source file="..\obj\main_meny.o" lastModified="16bc06c1129"/>
+         <source file="..\obj\main_meny.o" lastModified="16bc4d596f2"/>
          <source file="..\obj\delay.o" lastModified="16bc06c12f3"/>
          <source file="..\obj\stm32f10x_tim.o" lastModified="16bc06c1aa1"/>
          <source file="..\obj\flash.o" lastModified="16bc06c1ce2"/>
          <source file="..\obj\ds18b20.o" lastModified="16bc06c21e0"/>
          <source file="..\obj\system_stm32f10x.o" lastModified="16bc06c23b4"/>
-         <source file="..\obj\bat.o" lastModified="16bc06c2565"/>
+         <source file="..\obj\bat.o" lastModified="16bc4d598c5"/>
          <source file="..\obj\chip_clock.o" lastModified="16bc06c2735"/>
          <source file="..\obj\startup_stm32f10x_md.o" lastModified="16bc06c287c"/>
          <source file="..\obj\stm32f10x_pwr.o" lastModified="16bc06c2abb"/>
          <source file="..\obj\stm32f10x_gpio.o" lastModified="16bc06c2e4b"/>
-         <source file="..\obj\main.o" lastModified="16bc46130b5"/>
+         <source file="..\obj\main.o" lastModified="16bc4de61b5"/>
          <source file="..\obj\stm32f10x_crc.o" lastModified="16bc06c4152"/>
          <source file="..\obj\stm32f10x_rcc.o" lastModified="16bc06c44f0"/>
-         <source file="..\obj\nokia_5110.o" lastModified="16bc06c4894"/>
+         <source file="..\obj\nokia_5110.o" lastModified="16bc4d5ac42"/>
          <source file="..\obj\stm32f10x_exti.o" lastModified="16bc06c4b53"/>
          <source file="..\obj\stm32f10x_adc.o" lastModified="16bc06c5013"/>
          <source file="..\obj\key.o" lastModified="16bc080c622"/>
